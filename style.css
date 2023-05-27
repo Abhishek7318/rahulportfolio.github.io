@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+body{
+   background-image: url(assets/AdobeColorGradient\ gradient_pastel\ \(1\).png);
+}
+.hide{
+    display: none;
+}
+.hider{
+    display: none;
+}
+.card{
+  
+}
+.text{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    display: flex;
+    align-content: center;
+}
+h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+h1{
+    color:  white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+}
+.light{
+    color: #F24405;
+    font-size: 85px;
+}
+h4{
+    color: white;
+    position: relative;
+    top: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.span1{
+    color: #F24405;
+    font-size: 26px;
+    font-weight: 500;
+}
+p{
+    color:  white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+}
+
+img{
+    position: relative;
+    left: 90px;
+    top: 10px;
+    bottom: 160px;
+    height: 400px;
+    box-shadow: 0 5px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 25px;
+   
+}
+img:hover{
+    box-shadow:0 3px 6px  rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23) ;
+    transform: translate(0px, -8px);
+    transition: 1s;
+}
+
+.download button{
+    background-color: #F24405;
+    border-radius: 10px;
+    border: 2px solid rgb(236, 69, 125);
+    color: white;
+    height: 35px;
+    width: 200px;
+    font-size: 16px;
+    position: relative;
+    top: 40px;
+    box-shadow: black;
+    align-items: center;
+    font-weight: 600;
+    box-shadow:0 3px 6px  rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23) ;
+}
+
+.hover:hover{
+    background-color: white;
+    color: #F24405;
+    transition: 2s;
+}
+video{
+    position: relative;
+    height: 220px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.videofr{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+/* @media (max-width:820px){
+    h1{
+        display: none;
+    }
+    .hide{
+        display: inline;
+        font-size:50px;
+        color:white
+    }
+    main{
+        position:relative;
+        bottom:100px;
+        right:100px
+        
+    }
+     p{
+         display: none;
+     }
+     .ccc{
+         margin-top:100px;
+     }
+    .hider{
+        position: absolute;
+        display:inline;
+        margin-top:510px;
+    }
+} */
+@media (max-width:768px){
+    .text{
+        display: block;;
+        justify-content: center;
+}
+
+p{
+    display: inline;
+}
+.hider{
+   
+    display:none; 
+}
+    img{
+        position: relative;
+        top: 100px;
+        left: 40px;
+        height: 380px;
+        width: 380px;
+    }
+    .p-3{
+        position:relative;
+        left:2px;
+    }
+    .color{
+        height: 90vh;
+        width: 120vw;
+     }
+    
+  }
+@media (max-width:414px){
+    .text{
+        display: block;;
+        justify-content: center;
+}
+.navbar{
+
+}
+    img{
+        position: relative;
+        top: 75px;
+        left: 0px;
+        height: 300px;
+        width: 300px;
+    }
+    .p-3{
+        position:relative;
+        right:15px;
+    }
+    .color{
+        height:128vh;
+    }
+   
+    main{
+        position: relative;
+        right: 87px;
+        bottom: 150px;
+    }
+   
+}
+
+@media (max-width:375px){
+    .text{
+        display: block;;
+        justify-content: center;
+}
+    img{
+        position: relative;
+        top: 75px;
+        left: 0px;
+        height: 300px;
+        width: 300px;
+    }
+    .color{
+        height: 145vh;
+        width: 120vw;
+     }
+    
+     main{
+        position: relative;
+        right: 87px;
+        bottom: 150px;
+    }
+  
+}
+@media (max-width:360px){
+    .text{
+        display: block;;
+        justify-content: center;
+}
+    img{
+        position: relative;
+        top: 75px;
+        left: 0px;
+        height: 300px;
+        width: 300px;
+    }
+    .color{
+        height: 130vh;
+        width: 120vw;
+     }
+    
+     main{
+        position: relative;
+        right: 87px;
+        bottom: 150px;
+    }
+   
+}
