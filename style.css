@@ -110,7 +110,24 @@ video{
     top: 50px;
     left: 0px;
 }
-/* @media (max-width:820px){
+.devlopersection{
+    background-color: #DEEFE7;
+    width: 100vw;
+}
+.devloper{
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sec{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display:none;
+}
+@media (max-width:820px){
     h1{
         display: none;
     }
@@ -136,7 +153,7 @@ video{
         display:inline;
         margin-top:510px;
     }
-} */
+}
 @media (max-width:768px){
     .text{
         display: block;;
@@ -172,6 +189,8 @@ p{
         display: block;;
         justify-content: center;
 }
+    .sec{
+        display:inline-block;
 .navbar{
 
 }
