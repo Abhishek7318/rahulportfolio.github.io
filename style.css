@@ -108,7 +108,7 @@ video{
 .videofr{
     position: relative;
     top: 50px;
-    left: 10px;
+    left: 0px;
 }
 /* @media (max-width:820px){
     h1{
